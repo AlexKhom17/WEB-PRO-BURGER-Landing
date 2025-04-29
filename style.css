@@ -75,6 +75,7 @@ transition: 0.3s;
 }
 /*Приветственная секция */
 .welcome{
+    margin-top: -100px;
     padding: 240px 0;
     background-image: url(images/welcome\ bg.png);
     background-repeat: no-repeat;
