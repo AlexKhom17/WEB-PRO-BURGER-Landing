@@ -22,6 +22,7 @@ margin: 0;
 }
 h1, h2, h3, h4, h5, h6 {
     font-weight: 500;
+    margin: 0;
 }
 .btn {
     display: flex;
@@ -73,11 +74,19 @@ transition: 0.3s;
 
 }
 /*Приветственная секция */
-.welcome {
-
+.welcome{
+    padding: 240px 0;
+    background-image: url(images/welcome\ bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.welcome__text {
+width: 550px;
 }
 
 .welcome__subtittle {
+    margin-bottom: 7px;
 font-size: 14px;
 letter-spacing: 0.1em;
 } 
@@ -86,5 +95,7 @@ font-size: 58px;
 }
 
 .welcome__desc {
-
+    margin: 40px 0;
+font-size: 18px;
+opacity: 0.7;
 }
