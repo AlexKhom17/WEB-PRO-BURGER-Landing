@@ -15,6 +15,12 @@ a {
     color: #fff;
     text-decoration: none;
 }
+p {
+    margin: 0;
+}
+p + p {
+    margin-top: 15px;
+}
 ul {
 list-style: none;
 padding: 0;
@@ -73,9 +79,6 @@ transition: 0.3s;
     opacity: 0.9;
 }
 
-.main {
-
-}
 /*Приветственная секция */
 .welcome{
 box-sizing: border-box;
@@ -109,13 +112,13 @@ opacity: 0.7;
 
 /* Список еды */
 .food__list {
-    
+    padding: 100px 0;
 }
 .food__list .container{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 40px 10px;
 }
 .food__list__card {
     width: 260px;
@@ -139,4 +142,8 @@ opacity: 0.7;
 .food__list__desc {
     font-size: 16px;
     opacity: 0.7;
+}
+
+.food__text-wrapper{
+padding: 30px 20px;
 }
