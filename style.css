@@ -8,6 +8,8 @@ body {
 }
 .container{
 max-width: 1140px;
+margin: 0 auto;
+padding: 0 15px;
 }
 a {
     color: #fff;
@@ -17,6 +19,9 @@ ul {
 list-style: none;
 padding: 0;
 margin: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
 }
 .btn {
     display: flex;
@@ -41,15 +46,13 @@ margin: 0;
 /* Шапка */
 .header {
     padding: 25px 0;
-display: flex;
-justify-content: space-between;
-align-items: center;
-}
-
-.header__logo {
 
 }
-
+.header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .header__list {
 display: flex;
 gap: 30px;
@@ -64,4 +67,24 @@ transition: 0.3s;
 }
 .header__nav a:hover {
     opacity: 0.9;
+}
+
+.main {
+
+}
+/*Приветственная секция */
+.welcome {
+
+}
+
+.welcome__subtittle {
+font-size: 14px;
+letter-spacing: 0.1em;
+} 
+.welcome__title {
+font-size: 58px;
+}
+
+.welcome__desc {
+
 }
