@@ -264,10 +264,6 @@ padding: 30px 20px;
     margin-left: 5px;
 }
 
-.product .btn {
-    
-}
-
 .card--queen{
     background-image: url(images/product-1.jpg);
 }
@@ -280,3 +276,15 @@ padding: 30px 20px;
 .card--papa{
     background-image: url(images/product-4.jpg);
 }
+
+.feedback {}
+
+.feedback__img {}
+
+.feedback__text {}
+
+.feedback__desc {}
+
+.feedback__author {}
+
+.feedback__subauthor {}
