@@ -331,7 +331,33 @@ justify-content: space-around;
     font-weight: 500;
     font-size: 40px;
 }
+/* Footer */
+.footer {}
 
-.btn {
+.footer__contacts {}
 
-}
+.footer__logo {}
+
+.footer__link {}
+
+.footer__link-mail {}
+
+.footer__link-web {}
+
+.footer__nav {}
+
+.footer__list {}
+
+.footer__list-title {}
+
+.footer__title {}
+
+.footer__inner-list {}
+
+.footer__list-item {}
+
+.footer__socials {}
+
+.footer__socials-icons {}
+
+.footer__socials-link {}
