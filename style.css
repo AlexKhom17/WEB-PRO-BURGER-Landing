@@ -7,7 +7,8 @@ body {
     color: #fff;
 }
 .container{
-max-width: 1140px;
+    box-sizing: border-box;
+max-width: 1170px;
 margin: 0 auto;
 padding: 0 15px;
 }
@@ -52,6 +53,11 @@ img{
 }
 .btn:hover{
     opacity: 0.8;
+}
+.btn--small{
+    width: 14opx;
+    height: 40px;
+    font-size: 12px;
 }
 /* Шапка */
 .header {
@@ -144,6 +150,95 @@ opacity: 0.7;
     opacity: 0.7;
 }
 
-.food__text-wrapper{
+.food__text-wrapper {
 padding: 30px 20px;
+}
+
+.food__text-wrapper:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+    color: #F6762C;
+    cursor: default;
+}
+/* Order */
+.order {
+  background: #312f30;  
+  padding: 60px 0;
+}
+.order .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 90px;
+}
+
+.order__text {
+    max-width: 360px;
+}
+
+.order__img{
+    max-width: 470px;
+}
+
+.order__title {
+    margin-bottom: 25px;
+    font-size: 44px;
+}
+
+.order__desc {
+    margin-bottom: 15px;
+    opacity: 0.7;
+}
+
+.order__price {
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+}
+
+.order__price order__price--old {
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-decoration: line-through;
+    color: #F6762C;
+    opacity: 0.5;
+}
+.order__price + .order__price {
+    margin-left: 3px;
+}
+
+.order .btn {
+    margin-top: 10px;
+}
+
+.product {}
+
+.conainer {}
+
+.product__cart {}
+
+.product__title {
+    margin-bottom: 20px;
+    font-size: 30px;
+}
+
+.product__desc {
+    margin-bottom: 10px;
+    opacity: 0.7;
+}
+
+.product__price {
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    color: #F6762C;
+}
+
+.product__price--old {
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+.product .btn {
+    
 }
