@@ -239,6 +239,14 @@ padding: 30px 20px;
     opacity: 0.5;
 }
 
+.product__price + .product__price {
+    margin-left: 5px;
+}
+
 .product .btn {
     
+}
+
+.card--queen{
+    background-image: url(images/product-1.jpg);
 }
