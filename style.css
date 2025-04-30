@@ -278,10 +278,14 @@ padding: 30px 20px;
 }
 
 /* Feedback */
+.feedback {
+    padding-bottom: 200px;
+}
 .feedback .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    max-width: 880px;
 }
 
 .feedback__img {}
