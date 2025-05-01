@@ -454,16 +454,19 @@ height: 12px;
         grid-template-columns: 1fr 1fr;
         grid-template-rows: 1fr 1fr;
         grid-template-areas: "contacts socials" "nav nav";
+        justify-items: center;
+        gap: 20px;
 
-        .footer__contacts {
-grid-template-areas: contacns;
-        }
+        /* .footer__contacts {
+grid-area: contacns;
+        } */
+
         .footer__nav {
-grid-template-areas: nav;
+grid-area: nav;
         }
 
         .footer__socials {
-            grid-template-areas: socials;
+            grid-area: socials;
         }
     }
 }
