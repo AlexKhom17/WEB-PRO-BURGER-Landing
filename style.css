@@ -440,7 +440,7 @@ height: 12px;
 @media (max-width: 950px) {
     .order .container {
         flex-direction: column;
-        padding-right: 0;
+        padding-right: 15px;
     }
         .order__text {
             text-align: center;
@@ -479,7 +479,7 @@ grid-area: nav;
         }
 
         .footer__list {
-            gap: 90px;
+            gap: 20px;
         }
     }
 
@@ -501,7 +501,7 @@ grid-area: nav;
     width: 220px;
 }
 .download__title {
-    font-size: 30px;
+    font-size: 24px;
 }
 
 .welcome {
@@ -565,6 +565,60 @@ padding-left: 50%;
     font-size: 12px;
 }
 .food__list {
-    padding: 50px 0;
+    padding: 60px 0;
+}
+
+.order__title {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.order__img {
+    width: 100%;
+}
+
+.feedback .container {
+    flex-direction: column;
+}
+
+.feedback, .product {
+    padding-bottom: 60px;
+}
+
+.download, .container {
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* text-align: center; */
+}
+.footer__contacts {
+    align-items: center;
+}
+.footer__socials-icons{
+    display: flex;
+    justify-content: center;
+}
+
+.footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer  .footer__title {
+    margin-bottom: 10px;
+}
+
+.food__list-item + .food__list-item {
+    margin-top: 7px;
+}
+
+.footer__logo {
+    margin-bottom: 10px;
 }
 }
