@@ -332,8 +332,16 @@ justify-content: space-around;
     font-size: 40px;
 }
 /* Footer */
-.footer {}
+.footer a {
+    font-size: 12px;
+    opacity: 0.8;
+}
 
+.footer .footer__title {
+    font-weight: 500;
+    font-size: 16px;
+    opacity: 1;
+}
 .footer__contacts {}
 
 .footer__logo {}
@@ -346,11 +354,13 @@ justify-content: space-around;
 
 .footer__nav {}
 
-.footer__list {}
+.footer__list {
 
-.footer__list-title {}
+}
 
-.footer__title {}
+.footer__list-title {
+list-style: none;
+}
 
 .footer__inner-list {}
 
