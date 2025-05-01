@@ -428,3 +428,16 @@ height: 12px;
     align-items: center;
     gap: 5px;
 }
+
+
+@media (max-width: 1100px) {
+    .welcome__desc {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 940px) {
+    .order .container {
+        flex-direction: column;
+    }
+}
